@@ -11,7 +11,7 @@ import (
 func main() {
 	log.Println("init app")
 	http.HandleFunc("/", HelloServer)
-	_ = http.ListenAndServe(":8080", nil)
+	_ = http.ListenAndServe(":80", nil)
 }
 
 func HelloServer(w http.ResponseWriter, r *http.Request) {
