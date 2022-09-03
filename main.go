@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	log.Println("init ecr")
+	log.Println("init aa")
 	http.HandleFunc("/", HelloServer)
 	_ = http.ListenAndServe(":8080", nil)
 }
