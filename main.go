@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	log.Println("d cdubeta.da")
+	log.Println("Is still active?")
 	http.HandleFunc("/", HelloServer)
 	_ = http.ListenAndServe(":8080", nil)
 }
