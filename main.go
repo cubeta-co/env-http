@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	log.Println("Is still active? nope ita disn't.")
+	log.Println("Is still active? yes.")
 	http.HandleFunc("/", HelloServer)
 	_ = http.ListenAndServe(":8080", nil)
 }
